@@ -35,7 +35,7 @@ layui.use(['form','layer','laydate','table','laytpl'],function(){
         var index = layui.layer.open({
             title : "中国的例子",
             type : 2,
-            content : "../disasterRR/mainFlood_map_China.html",
+            content : "mainFlood_map_China.html",
             success : function(layero, index){
                 var body = layui.layer.getChildFrame('body', index);
                 setTimeout(function(){
